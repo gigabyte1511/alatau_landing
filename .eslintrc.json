@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime", // Чтобы не было ошибки react/react-in-jsx-scope (import React from 'react')
+    "standard-with-typescript"
+  ],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": [
+      "tsconfig.json"
+    ]
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "space-before-function-paren": [
+      "warn",
+      "never"
+    ],
+    "@typescript-eslint/space-before-function-paren": [
+      "warn",
+      "never"
+    ],
+    "indent": 0,
+    "@typescript-eslint/indent": 0
+  }
+}

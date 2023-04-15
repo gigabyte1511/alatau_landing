@@ -1,0 +1,17 @@
+.App {}
+
+/* .image {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+} */
+.wrapper {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: 0;
+    z-index: 0;
+}

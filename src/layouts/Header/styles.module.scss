@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+    // @media (max-width: 1240px) {
+    //     background-color: green;
+    // }
+}
+
+img {
+    width: 100vw;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20vw;
+    font-size: 3vw;
+    background-color: white;
+    text-align: center;
+}

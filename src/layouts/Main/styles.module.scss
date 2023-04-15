@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding: 10px 140px;
+    background-color: #0058D4;
+
+    .slide {
+        display: flex;
+        gap: 2vw;
+        z-index: 1;
+    }
+}
